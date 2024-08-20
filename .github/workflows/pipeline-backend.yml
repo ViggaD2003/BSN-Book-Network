@@ -119,7 +119,7 @@ jobs:
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/bsn-api:${{ steps.extract_version.output.VERSION }}
           build-args: |
             PROFILE=dev
-            APP_VERSION=${{ step.extract_version.output.VERSION }}
+            APP_VERSION=${{ steps.extract_version.output.VERSION }}
 
 
 
