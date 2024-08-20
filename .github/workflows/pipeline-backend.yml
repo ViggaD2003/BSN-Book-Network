@@ -8,7 +8,7 @@ on:
       - book-network/**
       - docker/backend/**
       - 'docker-compose.yml'
-      - .github/workflows/*-backend.yml
+      - .github/workflows/pipeline-backend.yml
 
 
 jobs:
