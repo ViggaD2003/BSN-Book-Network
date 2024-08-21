@@ -16,8 +16,8 @@ spring:
   mail:
     host: stmp.gmail.com
     port: 465
-    username: "danhkvtse172932@fpt.edu.vn"
-    password: "huui kmnk hkwk lgkw"
+    username: thanhdanhvt2003@gmail.com
+    password: kapq pzub svdk gpip
     properties:
       mail:
         smtp:
@@ -25,8 +25,8 @@ spring:
           ssl:
             enable: true
             trust: "*"
-          starttls:
-            enable: true
+        starttls:
+          enable: true
     protocol: smtp
 application:
   security:
