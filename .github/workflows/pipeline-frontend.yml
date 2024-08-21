@@ -1,4 +1,4 @@
-name: BSN Frontend Pipeline
+name: BSN Frontend Pipeline 2
 
 on:
   push:
