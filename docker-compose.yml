@@ -31,7 +31,7 @@ services:
       - postgres
   bsn-ui:
     container_name: bsn-ui
-    image: viggad/bsn-ui:0.0.1
+    image: viggad/bsn-ui:0.0.2
     ports:
       - 8081:80
     networks:
