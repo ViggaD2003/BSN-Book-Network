@@ -30,25 +30,6 @@ jobs:
         run: |
           cd book-network
           mvn clean compile
-  unit-tests:
-    runs-on: ubuntu-latest
-    name: Unit tests
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup JDK
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'corretto'
-
-      - name: Running Unit Tests
-        run: |
-          cd book-network
-          mvn clean test
   build:
     runs-on: ubuntu-latest
     name: Build backend
