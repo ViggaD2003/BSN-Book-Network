@@ -24,7 +24,6 @@ import {CodeInputModule} from 'angular-code-input';
         FormsModule,
         HttpClientModule,
         CodeInputModule
-//         ApiModule.forRoot({rootUrl: 'http://198.91.81.15:8088/api/v1'})
     ],
   providers: [
     HttpClient,
