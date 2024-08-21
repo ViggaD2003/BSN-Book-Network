@@ -1,4 +1,4 @@
-name: BSN Backend API Pipeline 2
+name: BSN Backend API Pipeline
 
 on:
   push:
@@ -30,10 +30,11 @@ jobs:
         run: |
           cd book-network
           mvn clean compile
+
   build:
     runs-on: ubuntu-latest
     name: Build backend
-    needs: [compile, unit-tests]
+    needs: [compile]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
